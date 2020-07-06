@@ -1,0 +1,8 @@
+version: '2.0'
+services: 
+    revealjs:
+        image: revealjs:latest
+        ports: 
+            - "8080:8080"
+        volumes: 
+            - .:/content
